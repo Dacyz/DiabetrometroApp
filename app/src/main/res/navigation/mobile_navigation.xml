@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <!-- Pagina Inicial -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.diabetrometrov01.Interfaces.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <!-- Ingesta Alimenticia -->
+    <fragment
+        android:id="@+id/nav_Ingesta"
+        android:name="com.example.diabetrometrov01.Interfaces.IngestaAlimenticia.IngestaAlimenticia"
+        android:label="@string/menu_registerAct"
+        tools:layout="@layout/fragment_ingesta_alimenticia" />
+    <!-- Actividad Fisica -->
+    <fragment
+        android:id="@+id/nav_ActividadFisica"
+        android:name="com.example.diabetrometrov01.Interfaces.ActividadFisica.ActividadFisica"
+        android:label="@string/registro_fisica"
+        tools:layout="@layout/fragment_actividad_fisica" />
+    <!-- Mediciones -->
+    <fragment
+        android:id="@+id/nav_mediciones"
+        android:name="com.example.diabetrometrov01.Interfaces.Mediciones.Mediciones"
+        android:label="@string/menu_Medidas"
+        tools:layout="@layout/fragment_mediciones" />
+    <!-- Reportes -->
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.diabetrometrov01.reporte"
+        android:label="Reportes generados"
+        tools:layout="@layout/fragment_reporte" />
+    <!-- Cuenta -->
+    <fragment
+        android:id="@+id/nav_myaccount"
+        android:name="com.example.diabetrometrov01.Interfaces.Paciente.editUser"
+        android:label="@string/mi_perfil"
+        tools:layout="@layout/fragment_edit_user" />
+    <!-- Acerca de -->
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.diabetrometrov01.Interfaces.home.nav_info"
+        android:label="@string/acerca_de"
+        tools:layout="@layout/fragment_nav_info" />
+</navigation>

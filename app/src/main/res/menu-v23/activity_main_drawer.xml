@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/menu_home" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Ingesta"
+            android:icon="@drawable/icono_porcion"
+            android:title="@string/menu_registerAct" />
+        <item
+            android:id="@+id/nav_ActividadFisica"
+            android:icon="@drawable/icono_fisico"
+            android:title="@string/registro_fisica" />
+        <item
+            android:id="@+id/nav_mediciones"
+            android:icon="@drawable/icono_rule"
+            android:title="@string/menu_Medidas" />
+    </group>
+    <group android:checkableBehavior="single" >
+        <item android:title="@string/sesion">
+            <menu>
+                <item
+                    android:id="@+id/galleryFragment"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="@string/menu_DataEvaluation" />
+                <item
+                    android:id="@+id/nav_myaccount"
+                    android:icon="@drawable/icono_name"
+                    android:title="@string/mi_perfil" />
+
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@android:drawable/ic_menu_info_details"
+                    android:title="@string/acerca_de" />
+            </menu>
+        </item>
+    </group>
+</menu>

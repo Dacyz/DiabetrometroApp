@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/empty_tall_divider"
+    android:showDividers="middle"
+    android:orientation="vertical"
+    tools:context=".ReporteGenerar">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:padding="20dp">
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/selecciona_el_intervalo_de_fechas" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:padding="20dp">
+               <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/TILNombreReporte"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                   android:layout_width="match_parent"
+                   app:errorEnabled="true"
+                   android:layout_height="wrap_content"
+                   app:endIconDrawable="@drawable/icono_file"
+                   app:endIconMode="custom">
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:id="@+id/txtNombreReporte"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:hint="@string/nombre_del_report"
+                       android:inputType="textCapWords"
+                       android:maxLength="10"/>
+               </com.google.android.material.textfield.TextInputLayout>
+               <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/TILFechaInicioReporte"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                   android:layout_width="match_parent"
+                   app:errorEnabled="true"
+                   android:layout_height="wrap_content"
+                   app:endIconDrawable="@drawable/icono_consulta"
+                   app:endIconMode="custom">
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:id="@+id/txtFechaInicioReporte"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:hint="@string/fecha_inicial"
+                       android:inputType="text|date" />
+               </com.google.android.material.textfield.TextInputLayout>
+               <com.google.android.material.textfield.TextInputLayout
+                   android:id="@+id/TILFechaFinalReporte"
+                   style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                   android:layout_width="match_parent"
+                   app:errorEnabled="true"
+                   android:layout_height="wrap_content"
+                   app:endIconDrawable="@drawable/icono_consulta"
+                   app:endIconMode="custom">
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:id="@+id/txtFechaFinalReporte"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:hint="@string/fecha_final"
+                       android:inputType="text|date" />
+               </com.google.android.material.textfield.TextInputLayout>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center">
+               <com.google.android.material.button.MaterialButton
+                   android:id="@+id/BTNLimpiarReporte"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/limpiar"
+                   app:cornerRadius="100dp"
+                   app:icon="@drawable/icono_x" />
+               <Space
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1" />
+               <com.google.android.material.button.MaterialButton
+                   android:id="@+id/BTNGenerarReporte"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="generar"
+                   app:cornerRadius="100dp"
+                   app:icon="@drawable/icono_add" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:padding="30dp"
+               android:divider="@drawable/empty_tall_divider"
+               android:showDividers="middle">
+               <TextView
+                   android:id="@+id/textView4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Ajustes de reportes" />
+               <com.google.android.material.switchmaterial.SwitchMaterial
+                   android:id="@+id/switch1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Generacion de reportes automaticos" >
+                   <requestFocus/>
+               </com.google.android.material.switchmaterial.SwitchMaterial>
+               <com.google.android.material.switchmaterial.SwitchMaterial
+                   android:id="@+id/switch2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Generacion de frase motivadora" />
+               <com.google.android.material.switchmaterial.SwitchMaterial
+                   android:id="@+id/switch3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Generar solo desde el último mes" />
+           </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

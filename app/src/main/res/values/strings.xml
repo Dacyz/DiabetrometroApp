@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Diabetrometro vBeta</string>
+    <string name="app_names">Diabetrometro v3.13</string>
+    <string name="NewSession">Iniciar sesion</string>
+    <string name="Login_name">Correo electronico</string>
+    <string name="Login_pass">Contraseña</string>
+    <string name="Login">Ingresar</string>
+    <string name="New_account"> ¿No tienes una cuenta? </string>
+    <string name="New_accountBTN"> Registrate aquí </string>
+    <string name="ForgotPass"> ¿Olvidaste tu contraseña? </string>
+    <string name="ClickHereBTN"> Has click aquí </string>
+
+
+    <!-- Name of Data -->
+    <string name="DNI"> Nº de Documento </string>
+    <string name="Name"> Nombre del Paciente </string>
+    <string name="LastName"> Apellidos del Paciente </string>
+    <string name="Codigo"> CUI </string>
+    <string name="Correo"> Correo Electronico </string>
+    <string name="Password"> Contraseña </string>
+    <string name="RepeatPassword"> Repite la contraseña </string>
+    <string name="BirthDate"> Nacimiento </string>
+    <string name="Sex"> Sexo </string>
+
+    <string name="title_activity_menu_slide">Menú</string>
+    <string name="navigation_drawer_open">Abrir Navegador</string>
+    <string name="navigation_drawer_close">Cerrar Navegador</string>
+    <string name="nav_header_title">Diabetometro - Beta</string>
+    <string name="nav_header_subtitle">Ing. Software - Ciclo V</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuración</string>
+
+
+    <string name="menu_home">Principal</string>
+    <string name="menu_registerAct">Ingesta alimenticia</string>
+    <string name="menu_Medidas">Mediciones</string>
+    <string name="menu_DataEvaluation">Reportes</string>
+    <string name="menu_Share">Compartir registros</string>
+    <string name="menu_Security">Seguridad</string>
+
+    <string name="Principal_Register">Registrar</string>
+    <string name="Principal_Edit">Editar</string>
+    <string name="Principal_Save">Listar</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_register">Register</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Registro de Paciente</string>
+    <string name="second_fragment_label">Previsualizacion del Registro</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Atrás</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="confirma_informacion">Confirma que esta es tu informacion</string>
+    <string name="fecha_registro">Fecha de Registro</string>
+    <string name="terminos_y_condiciones">Acepto los terminos y Condiciones</string>
+    <string name="Home_name">No hay registros</string>
+    <string name="Home_Line1">Podria realizar su primer registro</string>
+    <string name="Home_Line2">-</string>
+    <string name="Home_Line3">o revisar las recetas saludables</string>
+    <string name="Home_Line4">Disfruta de una buena experiencia</string>
+    <string name="Home_Line5">con nosotros</string>
+    <string name="salir">Salir</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="sesion">Sesion</string>
+    <string name="mi_perfil">Mi cuenta</string>
+    <string name="alimento">Alimento</string>
+    <string name="categoria_de_alimento">Categoria de Alimento</string>
+    <string name="porcion">Porcion</string>
+    <string name="hora">Hora</string>
+    <string name="cancel">Cancelar</string>
+    <string name="agregar">Agregar</string>
+    <string name="detalle_alimento">Detalles rapidos del Alimento</string>
+    <string name="ingresa_tus_datos">Ingresa tus datos personales</string>
+    <string name="registro_fisica">Actividad fisica</string>
+    <string name="descripcion_ejercicio">Descripcion del Ejercicio</string>
+    <string name="tiempo_recomendado">Tiempo recomendado</string>
+    <string name="tiempo_realizado">Tiempo realizado</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="registroIngesta">Registro de Ingesta Alimenticia</string>
+    <string name="naceprograma">Este proyecto nace con la finalidad de ayudar a las personas que sufren diabetes tipo II.</string>
+    <string name="infoprograma">Creemos que cada persona que padece esta enfermedad debe ser responsable y disciplinada para llevar una vida sin complicaciones.</string>
+    <string name="juicioprograma">La falta de tiempo para asistir a controles, citas y falta de interés de los pacientes para con el cuidado de su salud. </string>
+    <string name="ucv">Universidad Cesar Vallejo</string>
+    <string name="desarrolladores">Desarrollado durante el V Ciclo de la carrera de Ing. de Sistemas en la Universidad Cesar Vallejo con sede en Piura - 2021</string>
+    <string name="nivel_glucosa">Nivel de Glucosa</string>
+    <string name="peso">Peso</string>
+    <string name="talla">Talla</string>
+    <string name="Nota">Nota: Recuerda testear tus instrumento antes de realizar tus mediciones</string>
+    <string name="proteinas">Proteinas</string>
+    <string name="carbohidratos">Carbohidratos</string>
+    <string name="calorias">Calorias</string>
+    <string name="grasas">Grasas</string>
+    <string name="buscar">Buscar</string>
+    <string name="ejercicio">Ejercicio</string>
+    <string name="guardar">Guardar</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="restaurar">Restaurar</string>
+    <string name="registrar">Registrar</string>
+    <string name="listar">Listar</string>
+    <string name="fecha_ingesta">Fecha de Ingesta</string>
+    <string name="mas_informacion">… Click aquí para más información</string>
+    <string name="hora_consumo">Hora de Consumo</string>
+    <string name="delete">Eliminar</string>
+    <string name="modificar">Modificar</string>
+    <string name="CORRECT">Campo(s) completado(s) correctamente</string>
+    <string name="WRONG">Campo(s) completado(s) incorrectamente</string>
+    <string name="REQUIRED_EDAD">No cumples con la edad necesaria</string>
+    <string name="REQUIRED_CAMPOS">Todos los campos son obligatorios</string>
+    <string name="REQUIRED_CAMPO">Campo obligatorio</string>
+    <string name="actividad_fisica">Actividad Fisica</string>
+    <string name="duracion">Duracion</string>
+    <string name="fecha_inicial">Fecha inicial</string>
+    <string name="fecha_final">Fecha final</string>
+    <string name="nombre_del_report">Nombre del Report</string>
+    <string name="selecciona_el_intervalo_de_fechas">Selecciona el intervalo de fechas</string>
+    <string name="edad">Edad</string>
+    <string name="frase">Recuerda que</string>
+    <string name="observacion">Observaciones</string>
+    <string name="datos_del_paciente">Datos del Paciente</string>
+    <string name="promedio_de_consumo">Promedio de Consumo</string>
+    <string name="promedio_de_mediciones">Promedio de Mediciones</string>
+    <string name="ultimas_mediciones">Ultimas Mediciones</string>
+    <string name="medida">Medida diaria</string>
+    <string name="formato_de_registro">Formato de Registro:</string>
+
+</resources>
